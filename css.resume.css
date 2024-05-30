@@ -1,0 +1,78 @@
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.resume {
+    background-color: #fff;
+    width: 800px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+.contact-info {
+    font-size: 0.9em;
+    color: #777;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.job, .education {
+    margin-bottom: 10px;
+}
+
+.job h3, .education h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.job span, .education span {
+    display: block;
+    font-size: 0.9em;
+    color: #777;
+}
+
+.skills {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills li {
+    background-color: #eee;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
